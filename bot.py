@@ -17,6 +17,8 @@ class StdOutListener(StreamListener):
 
             if "@harish31245" in res.get('text'):
                 return True;
+            elif "@elonmusk" in res.get('text'):
+                return True;
             else:
                 print res
                 print res.get('id');
@@ -41,4 +43,4 @@ auth.set_access_token(access_token,access_token_secret);
 api = tweepy.API(auth);
 
 stream = Stream(auth, l);
-stream.filter(follow=['833681812039811073'])
+stream.filter(follow=['833681812039811073','44196397'])
