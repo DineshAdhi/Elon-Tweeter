@@ -31,10 +31,10 @@ class StdOutListener(StreamListener):
         print status
 
 
-consumer_key ='jMb4DSemFf0FALmpohLxenNh5'
-consumer_secret='AE58yVAS1VhEkGiDSUGpOdTufhym5Q8y1vjgTXfuMXkLkFaqtQ'
-access_token='422310522-b5VfIIbj1R6c3rHzi1GjBXMgwpHGqWxuui2brI5s'
-access_token_secret='srtvlv04oJYMSXQY24sJsqDfufqCbFZBrcaCmV6VMgxcF'
+consumer_key ='IQpQ5gvwpUDZBfKuhNa3YnzyY'
+consumer_secret='6x4Da7hovAVlTG8pFX0oobqUPD6Ff3YCDfRxG9y06josYXvzcr'
+access_token='833681812039811073-9cO9JIOEiKr67QfQsxvv0tuxwGZUxKf'
+access_token_secret='Ib6sUjlomh9Nnn5OTst0AHxYtJBo2qnJUndsd2iZV4m7m'
 
 l = StdOutListener()
 auth = OAuthHandler(consumer_key,consumer_secret);
