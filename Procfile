@@ -1,0 +1,1 @@
+webworker: python bot.py
