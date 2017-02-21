@@ -15,15 +15,13 @@ class StdOutListener(StreamListener):
             print res.get('text')
             print ('\n\n');
 
-            if "@harish31245" in res.get('text'):
-                return True;
-            elif "@elonmusk" in res.get('text'):
+            if "@" in res.get('text'):
                 return True;
             else:
                 print res
                 print res.get('id');
                 api.update_status("Love you @"+res.get('user')['screen_name'], in_reply_to_status_id = res.get('id'));
-            return True;
+                return True;
         except:
             print ("error try again")
 
